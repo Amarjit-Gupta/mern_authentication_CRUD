@@ -1,0 +1,370 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(191, 231, 191);
+}
+
+html {
+    font-size: 10px;
+}
+
+.navbar {
+    height: 10rem;
+    width: 100%;
+    background-image: linear-gradient(45deg, rgb(231, 175, 175), rgb(184, 237, 184), rgb(204, 204, 225));
+    position: sticky;
+    top: 0rem;
+    border-bottom: grey solid 0.1rem;
+}
+
+.image img {
+    height: 7.5rem;
+    width: 7.5rem;
+    margin: 1.5rem 0rem 0rem 1.5rem;
+    border-radius: 1rem;
+    float: left;
+}
+
+.un1 {
+    text-align: right;
+    font-size: 2.5rem;
+}
+
+.un1 li {
+    display: inline-block;
+    padding: 3.5rem;
+}
+
+.logout-btn {
+    height: 3rem;
+    width: 7rem;
+    font-size: 1.8rem;
+    border-radius: 0.5rem;
+    border: grey solid 0.1rem;
+    background-color: aquamarine;
+    color: red;
+}
+
+.btn2 {
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 2.5rem;
+    color: red;
+    background-color: aquamarine;
+    border: grey solid 0.1rem;
+    float: right;
+    margin: 3.4rem;
+    box-sizing: content-box;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    display: none;
+}
+
+.un2 {
+    text-align: right;
+    font-size: 2.5rem;
+}
+
+.un2 li {
+    display: inline-block;
+    padding: 3.5rem;
+}
+
+.active {
+    color: red;
+}
+
+.main-signup {
+    height: 95vh;
+    width: 100%;
+    background-image: linear-gradient(45deg, rgb(233, 200, 200), rgb(198, 223, 198), rgb(214, 214, 232));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    width: 55rem;
+    box-shadow: 0rem 0rem 1rem 0.2rem grey;
+    border-radius: 1.5rem;
+}
+
+.signup h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 2rem 0rem 3.5rem 0rem;
+    color: red;
+    font-size: 2.5rem;
+}
+
+.input-Box {
+    border: grey solid 0.2rem;
+    display: block;
+    height: 5rem;
+    width: 45rem;
+    border-radius: 1rem;
+    font-size: 3rem;
+    padding: 0.5rem;
+    margin: auto;
+    margin-top: 3.5rem;
+    color: red;
+}
+
+.btn {
+    height: 4rem;
+    width: 16rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    background-color: rgb(94, 255, 255);
+    color: red;
+    border: grey solid 0.2rem;
+    border-radius: 1rem;
+    margin: 3rem 0rem 2.5rem 5rem;
+}
+
+.loader-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.icon {
+    font-size: 2.5rem;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.text {
+    font-size: 2rem;
+    color: red;
+    margin-left: 5rem;
+}
+
+.btn:hover {
+    background-color: aqua;
+}
+
+.error-page {
+    text-align: center;
+    margin: 0.35rem;
+}
+
+.footer {
+    background-image: linear-gradient(45deg, rgb(231, 175, 175), rgb(184, 237, 184), rgb(204, 204, 225));
+    color: red;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+    width: 100%;
+    border-top: grey solid 0.1rem;
+}
+
+.product-list {
+    width: 69rem;
+    margin: auto;
+    margin-top: 3.5rem;
+    margin-bottom: 4rem;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem grey;
+    border-radius: 0.5rem;
+}
+
+.product-list h1 {
+    text-align: center;
+    padding: 3rem;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: red;
+    background-image: linear-gradient(45deg, rgb(233, 200, 200), rgb(198, 223, 198), rgb(193, 193, 227), rgb(161, 222, 161));
+    border-bottom: grey solid 0.1rem;
+    font-size: 2.5rem;
+}
+
+.search-Box {
+    height: 4rem;
+    width: 25rem;
+    padding: 0.5rem;
+    border: grey solid 0.2rem;
+    margin: 0.5rem 0rem 1.5rem 1rem;
+    border-radius: 0.8rem;
+    font-size: 2.5rem;
+}
+
+.product-list-container li {
+    display: inline-block;
+    width: 11.5rem;
+    text-align: center;
+    border: grey solid 0.1rem;
+    height: 4rem;
+    align-content: center;
+    font-size: 2rem;
+}
+
+.product-list-container:hover {
+    background-color: white;
+}
+
+.btn1 {
+    background-color: white;
+    color: black;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    border: grey solid 0.1rem;
+    font-size: 1.9rem;
+}
+
+.btn-m {
+    margin-left: 0.5rem;
+}
+
+.btn1:hover {
+    background-color: rgb(222, 219, 219);
+}
+
+.not-found li {
+    text-align: center;
+    list-style-type: none;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+@media only screen and (max-width:820px) {
+    .btn2 {
+        display: block;
+    }
+
+    .un1 {
+        background-color: aquamarine;
+        position: fixed;
+        top: 10rem;
+        right: -100%;
+        text-align: center;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .un1 li {
+        display: block;
+        padding: 5.5rem;
+    }
+
+    .x1 {
+        right: 0%;
+    }
+}
+
+@media only screen and (max-width:712px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width:577px) {
+    html {
+        font-size: 6px;
+    }
+
+    .btn-m {
+        margin-left: 0.05rem;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    html {
+        font-size: 4.6px;
+    }
+
+    .main-signup {
+        height: 88vh;
+    }
+
+    .navbar {
+        height: 15rem;
+    }
+
+    .image img {
+        height: 9rem;
+        width: 9rem;
+        margin: 3rem 0rem 0rem 3rem;
+    }
+
+    .un1 {
+        font-size: 4rem;
+        top: 15rem;
+    }
+
+    .logout-btn {
+        height: 4rem;
+        width: 10rem;
+        font-size: 2.7rem;
+    }
+
+    .btn2 {
+        height: 3.5rem;
+        width: 3.5rem;
+        font-size: 3.5rem;
+        margin: 5.2rem;
+    }
+
+    .un2 {
+        font-size: 4rem;
+    }
+
+    .un2 li {
+        padding: 5.2rem;
+    }
+}
+
+.loader {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+}
+
+.loader img {
+    height: 13rem;
+    width: 13rem;
+}
+
+.loading {
+    height: 3rem;
+    width: 3rem;
+}
+
+.loading1 {
+    height: 3rem;
+    width: 3rem;
+    display: block;
+    margin: auto;
+    padding: 2rem;
+    box-sizing: content-box;
+}
+
+.new-btn {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
